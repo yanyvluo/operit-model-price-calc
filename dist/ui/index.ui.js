@@ -10,10 +10,10 @@ var DEFAULT_DATA = {
   providers: [
     {
       id: "p_default",
-      name: "基元律动",
+      name: "示例中转站",
       groupName: "",
       models: [
-        { id: "m_default", name: "deepseek-flash", input: "", cached: "", cacheWrite: "", output: "", perRequest: "" }
+        { id: "m_default", name: "示例模型", input: "", cached: "", cacheWrite: "", output: "", perRequest: "" }
       ]
     }
   ],
