@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "toolpkg_id": "com.yezi.price_calc",
+  "version": "0.9.9",
+  "api_version": "1.0.1",
+  "main": "dist/main.js",
+  "display_name": {
+    "zh": "模型价格计算",
+    "en": "Model Price Calc",
+    "default": "Model Price Calc"
+  },
+  "description": {
+    "zh": "按中转站分组管理模型价格：自定义中转站与模型名称，为每个模型填写输入/输出单价（元每百万 token），保存多组并一键切换当前生效价格。",
+    "en": "Group model prices by provider: custom provider/model names, per-model input/output unit prices, save multiple groups and switch the active price with one tap.",
+    "default": "Group model prices by provider; save multiple groups and switch active price with one tap."
+  },
+  "enabled_by_default": false,
+  "subpackages": [],
+  "resources": [],
+  "workflow_templates": [],
+  "workspace_templates": []
+}
