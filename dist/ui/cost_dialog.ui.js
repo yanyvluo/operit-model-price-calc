@@ -77,7 +77,7 @@ function numOf(s) {
 
 // ---- 自动匹配：先中转站，再模型 ----
 
-// "OPENAI_GENERIC/基元律动中转" -> "基元律动中转"；"ZHIPU" -> "ZHIPU"
+// "OPENAI_GENERIC/MyProvider" -> "MyProvider"；"ZHIPU" -> "ZHIPU"
 function splitProviderName(provider) {
   var s = asStr(provider);
   var i = s.lastIndexOf("/");
@@ -89,7 +89,7 @@ function normName(s) {
   return asStr(s).replace(/\s+/g, "").toLowerCase();
 }
 
-// 宽松相等：完全相同，或互为子串（如「基元律动」⊂「基元律动中转」）
+// 宽松相等：完全相同，或互为子串（如 `abc` ⊂ `abc中转`）
 function looseEq(a, b) {
   var x = normName(a);
   var y = normName(b);
