@@ -1,4 +1,4 @@
-# 对话价格计算 · Model Price Calc
+# Operit对话价格计算 · Model Price Calc
 
 > 一个 Operit ToolPkg 插件：按「中转站」分组管理模型价格，随时查看**这条消息**和**整个对话**花了多少钱。
 >
